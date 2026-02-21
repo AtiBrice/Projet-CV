@@ -1,0 +1,45 @@
+.title {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-left: 2.5%;
+    width: 95%;
+    font-size: 16px;
+}
+
+.name {
+    font-size: 48px;
+    margin: 3%;
+}
+
+section {
+    margin: 5% auto auto 5%;
+}
+
+div {
+    display: grid;
+    grid-template-areas: "art_l" "art_r";
+    grid-template-columns: 50% 50%;
+}
+
+div .article_left{
+    grid-area: "art_l";
+    margin-left: 10%;
+}
+
+div .article_right{
+    grid-area: "art_r";
+    border-left: 1px solid gray;
+    margin-right: 25%;
+    line-height: 25px;
+   
+}
+
+.important_point {
+    margin-left: 10%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
